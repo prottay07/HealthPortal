@@ -46,7 +46,7 @@
             @foreach($forms as $row) 
           <tr>
             
-            <th>Company Name</th>
+            <th>{{$row->companyName}}</th>
             <td>{{$row->name}}</td>
             <td>{{$row->phone}}</td>
             <td>{{$row->temp}}</td>
